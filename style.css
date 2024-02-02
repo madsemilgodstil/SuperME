@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+h1 {
+  font-size: 4rem;
+  color: chartreuse;
+}
+
+img {
+  display: block;
+  width: 50%;
+  margin-left: 25%;
+}
+
+main {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  gap: 20px;
+}
+
+article {
+  grid-column: 2/3;
+  width: 100%;
+  text-align: center;
+  background-color: aquamarine;
+}
